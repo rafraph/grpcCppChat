@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.intelchat";
+option java_outer_classname = "IntelChatProto";
+option objc_class_prefix = "RTG";
+
+package intelchat;
+
+// Interface exported by the server.
+service Chat {
+
+  rpc SendMsg(stream Message) returns (stream Message) {}
+    
+}
+
+
+message Message{
+  string sender = 1;
+  string text = 2;
+}
