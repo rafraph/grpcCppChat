@@ -23,15 +23,30 @@ The client implementation.
 
 It using the SendMsg service from the stub in order to write messages to the server (which distribute the message to all clients), and to read the stream that coming from the server.
 
-## How to run it
+## How to use it
+In your grpc folder go to grpc/grpc/examples.
+
+Put the chat.proto in protos folder
+
+Put the chat folder in cpp folder
+
+### Run it
+Go to /grpc/examples/cpp:
+
 To run the server type: chat_server
 
 To run the client type: chat_client
 
-## Build the proto
-In 
+### Build the project
+
+Go to grpc/examples/cpp/chat:
+
+To compile the chat.proto:
+
 type: make chat.grpc.pb.cc chat.pb.cc
 
-## Build the code
-In 
+To compile the code:
+
 type: make
+
+
