@@ -52,4 +52,6 @@ To compile the code:
 
 type: make
 
+## Screenshot of the chat
+![Screenshot](grpcScreenDemonstration.jpg)
 
