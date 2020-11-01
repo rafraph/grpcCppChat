@@ -2,6 +2,8 @@
 
 This c++ project demonstrate simple chat app using grpc 
 
+Note: tested on Ubuntu 20.04 LTS
+
 ## chat.proto
 Defines the protocol. 
 
