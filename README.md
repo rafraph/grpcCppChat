@@ -1,6 +1,6 @@
 # grpcCppChat
 
-This c++ project demonstrate simple chat app using grpc 
+This c++ project demonstrate simple chat app using gRPC
 
 Note: tested on Ubuntu 20.04 LTS
 
